@@ -1,3 +1,7 @@
+2009-02-14  Wouter Bolsterlee  <wbolster@svn.gnome.org>
+
+	* nl.po: Updated Dutch translation by Wouter Bolsterlee.
+
 2009-02-12  Inaki Larranaga Murgoitio  <dooteo@euskalgnu.org>
 
 	* eu.po: Updated Basque translation.
@@ -23,14 +27,14 @@
 	* bg.po: Updated Bulgarian translation by
 	Alexander Shopov <ash@contact.bg>
 
-2009-02-09   Clytie Siddall <clytie@riverland.net.au>
+2009-02-09  Clytie Siddall <clytie@riverland.net.au>
 
 	* vi.po: Added Vietnamese translation.
 	* LINGUAS: Added "vi".
 
 2009-02-09  Chao-Hsiung Liao  <j_h_liau@yahoo.com.tw>
 
-        * zh_HK.po: Updated Traditional Chinese translation(Hong Kong).
+	* zh_HK.po: Updated Traditional Chinese translation(Hong Kong).
 	* zh_TW.po: Updated Traditional Chinese translation(Taiwan).
 
 2009-02-08  Gabor Kelemen  <kelemeng@gnome.hu>
@@ -72,7 +76,7 @@
 
 2009-01-01  甘露(Gan Lu) <rhythm.gan@gmail.com>
 
-        * zh_CN.po: Updated Chinese Simplified translation
+	* zh_CN.po: Updated Chinese Simplified translation
 
 2008-12-30  Juanje Ojeda <jojeda@emergya.es>
 
@@ -106,7 +110,7 @@
 
 2008-11-13  Funda Wang <fundawang@gmail.com>
 
-        * zh_CN.po: Added Chinese Simplified translation from Ray Wang.
+	* zh_CN.po: Added Chinese Simplified translation from Ray Wang.
 
 2008-11-12  Daniel Nylander <po@danielnylander.se>
 
@@ -126,8 +130,8 @@
 	* LINGUAS: Added 'ja'.
 
 2008-09-25  Jovan Naumovski  <jovan@lugola.net>
- 
- 	* mk.po: Updated Macedonian translation.
+
+	* mk.po: Updated Macedonian translation.
 
 2008-09-22  Toms Baugis <toms.baugis@gmail.com>
 
@@ -168,7 +172,7 @@
 
 2008-09-20  Ignacio Casal Quinteiro  <nacho.resa@gmail.com>
 
-	 gl.po: Updated Galician translation
+	* gl.po: Updated Galician translation
 
 2008-09-20  Nikos Charonitakis  <nikosx@gmail.com>
 
@@ -185,8 +189,8 @@
 
 2008-09-19 Shankar Prasad  <svenkate@redhat.com>
 
-        * kn.po: Added Kannada Translation
-        * LINGUAS: Added kn to list of Languges
+	* kn.po: Added Kannada Translation
+	* LINGUAS: Added kn to list of Languges
 
 2008-09-19  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
@@ -227,7 +231,7 @@
 	* pa.po: Punjabi Translation Added
 	* LINGUAS: pa added to list
 
-2008-09-18  Djihed Afifi <djihed@gmail.com> 
+2008-09-18  Djihed Afifi <djihed@gmail.com>
 
 	* ar.po: Updated Arabic Translation by Djihed Afifi.
 
@@ -321,7 +325,7 @@
 
 	* ko.po: Added Korean translation.
 
-2008-09-15  Djihed Afifi <djihed@gmail.com> 
+2008-09-15  Djihed Afifi <djihed@gmail.com>
 
 	* ar.po: Updated Arabic Translation by Anas Afif Emad.
 
@@ -401,10 +405,10 @@
 	* LINGUAS: Added Tamil (ta) to The List of Languages.
 
 2008-09-09 Baris Cicek <baris@teamforce.name.tr>
-	
+
 	* LINGUAS: Added tr (Turkish)
 	* tr.po: Added Turkish translation
-	
+
 2008-09-09  Hendrik Richter  <hendrikr@gnome.org>
 
 	* de.po: Updated German translation.
@@ -585,8 +589,8 @@
 
 	* ChangeLog: Updated old changes
 	* de.po, es.po, et.po, fr.po, gl.po, he.po, it.po, lv.po, nb.po,
-	  nl.po, pt.po, ru.po, sv.po: Updated original strings on
-	  translations files
+	nl.po, pt.po, ru.po, sv.po: Updated original strings on
+	translations files
 
 2008-08-17  Juanje Ojeda <jojeda@emergya.es>
 
@@ -594,18 +598,12 @@
 
 2008-08-17  Kjartan Maraas  <kmaraas@gnome.org>
 
-	* ChangeLog, LINGUAS, nb.po: 2008-08-17 Kjartan Maraas
-	  kmaraas@gnome.org>
-	
-	  * LINGUAS: Add nb.
-	  * nb.po: Added Norwegian bokmål translation.
+	* LINGUAS: Add nb.
+	* nb.po: Added Norwegian bokmål translation.
 
 2008-08-17  Priit Laes <plaes at svn dot gnome dot org>
 
-	* ChangeLog, LINGUAS, et.po: 2008-08-17 Priit Laes <plaes at svn
-	  dot gnome dot org>
-	
-	  * et.po: Translation updated (by Ivar Smolin)
+	* et.po: Translation updated (by Ivar Smolin)
 
 2008-08-17  Yair Hershkovitz  <yairhr@gmail.com>
 
@@ -613,15 +611,12 @@
 
 2008-08-17  Yair Hershkovitz  <yairhr@gmail.com>
 
-	* ChangeLog, he.po: added hebrew translation
+	* he.po: added hebrew translation
 
 2008-08-16  Duarte Loreto <happyguy_pt@hotmail.com>
 
-	* ChangeLog, LINGUAS, pt.po: 2008-08-16 Duarte Loreto
-	  <happyguy_pt@hotmail.com>
-	
-	  * pt.po: Added Portuguese translation.
-	  * LINGUAS: Added Portuguese (pt) to the list.
+	* pt.po: Added Portuguese translation.
+	* LINGUAS: Added Portuguese (pt) to the list.
 
 2008-08-16  Daniel Nylander <po@danielnylander.se>
 
@@ -642,8 +637,8 @@
 2008-08-11  Juanje Ojeda <jojeda@emergya.es>
 
 	* de.po, es.po, fr.po, it.po, lv.po, nl.po, ru.po, sv.po:
-	  * Updated original strings to translate on po files
-	  * Updated the Spanish translations
+	* Updated original strings to translate on po files
+	* Updated the Spanish translations
 
 2008-08-05  Patryk Zawadzki  <patrys@pld-linux.org>
 
@@ -692,7 +687,7 @@
 2008-06-02  Juanje Ojeda <jojeda@emergya.es>
 
 	* LINGUAS, de.po: Added new translations for German language (by
-	  Matthias Mailänder)
+	Matthias Mailänder)
 
 2008-05-23  Toms Bauģis <toms.baugis@gmail.com>
 
@@ -713,8 +708,7 @@
 2008-04-14  Toms Bauģis <toms.baugis@gmail.com>
 
 	* es.po, lv.po: updated trivial changes in es/lv, couldn't get into
-	  swedish -
-	  better leave it to native speakers :)
+	swedish - better leave it to native speakers :)
 
 2008-04-14  Toms Bauģis <toms.baugis@gmail.com>
 
@@ -755,7 +749,7 @@
 2008-03-31  Toms Bauģis <toms.baugis@gmail.com>
 
 	* POTFILES.in, POTFILES.skip, lv.po: distcheck says that we are
-	  good for distribution now
+	good for distribution now
 
 2008-03-30  Toms Bauģis <toms.baugis@gmail.com>
 
@@ -772,10 +766,9 @@
 2008-03-30  Toms Bauģis <toms.baugis@gmail.com>
 
 	* LINGUAS, lv.po: yay for first translation, note for me - when
-	  need to update, run this:
-	  intltool-update lv
+	need to update, run this:
+	intltool-update lv
 
 2008-03-29  Toms Bauģis <toms.baugis@gmail.com>
 
-	* ., LINGUAS, POTFILES.in: starting loco stuff\!
-
+	* ., LINGUAS, POTFILES.in: starting loco stuff!
