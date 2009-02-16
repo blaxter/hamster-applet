@@ -1,4 +1,36 @@
 ===============
+Version 2.25.91
+===============
+ Applet - changes
+    * Show day totals in statistics (patch by Daniel Watkins)
+    * Better keyboard support (Enter / Escape, patch by Daniel Watkins)
+    * Fixes to detect alternative pygtk (Frederic Peters)
+    * Fixes to support Japanese better (Takao Fujiwara)
+    * Python 2.6 support (Patryk Zawadzki)
+    * Better duplicate entry checks in activities / categories
+   
+  Updated translations
+    * bg (Alexander Shopov)
+    * ca (Gil Forcada)
+    * da (Kenneth Nielsen)
+    * es (Juanje Ojeda Croissier)
+    * eu (Inaki Larranaga Murgoitio)
+    * fi (Ilkka Tuohela)
+    * he (Yair Hershkovitz)
+    * ko (Changwoo Ryu)
+    * nb (Kjartan Maraas)
+    * nl (Wouter Bolsterlee)
+    * pl (Tomasz Dominikowski)
+    * pt_BR (Henrique P. Machado)
+    * sl (Matej Urbančič)
+    * sv (Daniel Nylander)
+    * th (Theppitak Karoonboonyanan)
+    * zh_cn (甘露(Gan Lu))
+    * zh_HK (Chao-Hsiung Liao)
+    * zh_TW (Chao-Hsiung Liao)
+    
+
+===============
 Version 2.25.3
 ===============
   We were late for 2.25.1 and 2.25.2, so here we go - changes since 2.24.0!
