@@ -1,14 +1,14 @@
 # hamster-applet's Finnish translation.
-# Copyright (C) 2008 Timo Jyrinki.
+# Copyright (C) 2008-2009 Timo Jyrinki.
 # This file is distributed under the same license as the hamster-applet package.
-# Timo Jyrinki <timo.jyrinki@iki.fi>, 2008.
+# Timo Jyrinki <timo.jyrinki@iki.fi>, 2008-2009.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: hamster-applet\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-01-27 18:06+0300\n"
-"PO-Revision-Date: 2008-09-15 21:22+0300\n"
+"POT-Creation-Date: 2009-02-18 11:33+0200\n"
+"PO-Revision-Date: 2009-02-18 11:33+0200\n"
 "Last-Translator: Timo Jyrinki <timo.jyrinki@iki.fi>\n"
 "Language-Team: Finnish <gnome-fi-laatu@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -22,7 +22,7 @@ msgstr "Hamsteriprojekti - hallitse aikaasi"
 
 #. Title of reminder baloon
 #: ../data/Hamster_Applet.server.in.in.h:2 ../hamster/about.py:40
-#: ../hamster/applet.py:59
+#: ../hamster/applet.py:65
 msgid "Time Tracker"
 msgstr "Ajankäytön seuranta"
 
@@ -137,8 +137,8 @@ msgid ""
 "Remind of current task every specified amount of minutes. Set to 0 or bigger "
 "than 120 to disable reminder."
 msgstr ""
-"Muistuta ajankohtaisista tapahtumista annetun minuuttimäärän välein. "
-"Aseta arvoksi 0 tai suurempi kuin 120, jos et halua muistutuksia."
+"Muistuta ajankohtaisista tapahtumista annetun minuuttimäärän välein. Aseta "
+"arvoksi 0 tai suurempi kuin 120, jos et halua muistutuksia."
 
 #: ../data/hamster-applet.schemas.in.h:3
 msgid "Remind of current task every x minutes"
@@ -169,7 +169,7 @@ msgstr "Li_sää aikaisempi toimi"
 msgid "Hamster"
 msgstr "Hamsteri"
 
-#: ../data/menu.glade.h:4 ../hamster/applet.py:451
+#: ../data/menu.glade.h:4 ../hamster/applet.py:458
 msgid "No records today"
 msgstr "Ei kirjauksia tältä päivältä"
 
@@ -253,10 +253,6 @@ msgstr "Näytä kuukausi"
 msgid "Show week"
 msgstr "Näytä viikko"
 
-#: ../data/stats.glade.h:18
-msgid "Today"
-msgstr "Tänään"
-
 #: ../hamster/about.py:43
 msgid "Copyright © 2007-2008 Toms Baugis and others"
 msgstr "Tekijänoikeudet © 2007-2008 Toms Baugis ja muita"
@@ -267,13 +263,13 @@ msgstr "Hamsterin WWW-sivut"
 
 #: ../hamster/about.py:54
 msgid "translator-credits"
-msgstr "Timo Jyrinki <timo.jyrinki@iki.fi>, 2008."
+msgstr "Timo Jyrinki <timo.jyrinki@iki.fi>, 2008-2009."
 
-#: ../hamster/preferences.py:56 ../hamster/db.py:333 ../hamster/reports.py:133
+#: ../hamster/preferences.py:56 ../hamster/db.py:343 ../hamster/reports.py:133
 msgid "Unsorted"
 msgstr "Lajittelematon"
 
-#: ../hamster/preferences.py:103 ../hamster/applet.py:213
+#: ../hamster/preferences.py:103 ../hamster/applet.py:221
 #: ../hamster/stats.py:47
 msgid "Name"
 msgstr "Nimi"
@@ -283,90 +279,92 @@ msgstr "Nimi"
 msgid "Category"
 msgstr "Luokka"
 
-#: ../hamster/preferences.py:494
+#: ../hamster/preferences.py:510
 msgid "New category"
 msgstr "Uusi luokka"
 
-#: ../hamster/preferences.py:507
+#: ../hamster/preferences.py:523
 msgid "New activity"
 msgstr "Uusi toimi"
 
 #. notify interval slider value label
-#: ../hamster/preferences.py:552
+#: ../hamster/preferences.py:568
 #, python-format
 msgid "%(interval_minutes)d minutes"
 msgstr "%(interval_minutes)d minuutti"
 
 #. notify interval slider value label
-#: ../hamster/preferences.py:555
+#: ../hamster/preferences.py:571
 msgid "Never"
 msgstr "Ei koskaan"
 
-#: ../hamster/add_custom_fact.py:80
+#: ../hamster/add_custom_fact.py:82
 msgid "Update activity"
 msgstr "Päivitä toimea"
 
-#: ../hamster/applet.py:66
-msgid "Switch Task"
-msgstr "Vaihda tehtävää"
+#. translators: this is edit activity action in the notifier bubble
+#: ../hamster/applet.py:73
+msgid "Edit"
+msgstr "Muokkaa"
 
-#: ../hamster/applet.py:67
-msgid "Stop Tracking"
-msgstr "Py_säytä seuranta"
+#. translators: this is switch activity action in the notifier bubble
+#: ../hamster/applet.py:75
+msgid "Switch"
+msgstr "Vaihda"
 
-#: ../hamster/applet.py:417 ../hamster/applet.py:517
+#: ../hamster/applet.py:423 ../hamster/applet.py:524
 msgid "No activity"
 msgstr "Ei toimea"
 
 #. activity reminder
-#: ../hamster/applet.py:431
+#: ../hamster/applet.py:437
 #, python-format
 msgid "Working on <b>%s</b>"
 msgstr "Työn alla: <b>%s</b>"
 
-#: ../hamster/applet.py:458
+#: ../hamster/applet.py:465
 #, python-format
 msgid "%(category)s: %(duration)s, "
 msgstr "%(category)s: %(duration)s, "
 
 #. defaults
-#: ../hamster/db.py:503
+#: ../hamster/db.py:513
 msgid "Work"
 msgstr "Työ"
 
-#: ../hamster/db.py:504
+#: ../hamster/db.py:514
 msgid "Reading news"
 msgstr "Uutisten luku"
 
-#: ../hamster/db.py:505
+#: ../hamster/db.py:515
 msgid "Checking stocks"
 msgstr "Osakekurssien tarkistus"
 
-#: ../hamster/db.py:506
+#: ../hamster/db.py:516
 msgid "Super secret project X"
 msgstr "Tosi salainen projekti X"
 
-#: ../hamster/db.py:507
+#: ../hamster/db.py:517
 msgid "World domination"
 msgstr "Maailman valloitus"
 
-#: ../hamster/db.py:509
+#: ../hamster/db.py:519
 msgid "Day to day"
 msgstr "Päivittäiset"
 
-#: ../hamster/db.py:510
+#: ../hamster/db.py:520
 msgid "Lunch"
 msgstr "Lounas"
 
-#: ../hamster/db.py:511
+#: ../hamster/db.py:521
 msgid "Watering flowers"
 msgstr "Kukkien kastelu"
 
-#: ../hamster/db.py:512
+#: ../hamster/db.py:522
 msgid "Doing handstands"
 msgstr "Käsilläseisonta"
 
-#: ../hamster/db.py:695 ../hamster/db.py:699
+#: ../hamster/db.py:705 ../hamster/db.py:709
 msgid "name"
 msgstr "nimi"
 
@@ -475,6 +473,12 @@ msgstr "Viikko"
 #: ../hamster/stats.py:317
 msgid "Month"
 msgstr "Kuukausi"
+
+#~ msgid "Today"
+#~ msgstr "Tänään"
+
+#~ msgid "Stop Tracking"
+#~ msgstr "Py_säytä seuranta"
 
 #~ msgid "Time tracking for masses"
 #~ msgstr "Ajankäytön seuranta kaikille"
