@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hamster-applet\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-01-29 16:05+0900\n"
-"PO-Revision-Date: 2009-01-29 16:09+0900\n"
+"POT-Creation-Date: 2009-02-18 09:17+0900\n"
+"PO-Revision-Date: 2009-02-18 09:17+0900\n"
 "Last-Translator: Changwoo Ryu <cwryu@debian.org>\n"
 "Language-Team: GNOME Korea <gnome-kr-hackers@lists.kldp.net>\n"
 "MIME-Version: 1.0\n"
@@ -24,7 +24,7 @@ msgstr "프로젝트 햄스터 - 시간 추적"
 
 #. Title of reminder baloon
 #: ../data/Hamster_Applet.server.in.in.h:2 ../hamster/about.py:40
-#: ../hamster/applet.py:59
+#: ../hamster/applet.py:65
 msgid "Time Tracker"
 msgstr "시간 추적"
 
@@ -138,7 +138,9 @@ msgstr "시간 추적 창을 표시할 키보드 바로 가기 키."
 msgid ""
 "Remind of current task every specified amount of minutes. Set to 0 or bigger "
 "than 120 to disable reminder."
-msgstr "현재 활동을 지정한 분마다 알립니다. 0으로 설정하거나 120보다 큰 값으로 설정하면 알리지 않습니다."
+msgstr ""
+"현재 활동을 지정한 분마다 알립니다. 0으로 설정하거나 120보다 큰 값으로 설정하"
+"면 알리지 않습니다."
 
 #: ../data/hamster-applet.schemas.in.h:3
 msgid "Remind of current task every x minutes"
@@ -169,7 +171,7 @@ msgstr "이전 활동 더하기(_D)"
 msgid "Hamster"
 msgstr "햄스터"
 
-#: ../data/menu.glade.h:4 ../hamster/applet.py:451
+#: ../data/menu.glade.h:4 ../hamster/applet.py:458
 msgid "No records today"
 msgstr "오늘의 기록 없음"
 
@@ -253,10 +255,6 @@ msgstr "달 표시"
 msgid "Show week"
 msgstr "주 표시"
 
-#: ../data/stats.glade.h:18
-msgid "Today"
-msgstr "오늘"
-
 #: ../hamster/about.py:43
 msgid "Copyright © 2007-2008 Toms Baugis and others"
 msgstr "Copyright © 2007-2008 Toms Baugis and others"
@@ -269,11 +267,11 @@ msgstr "햄스터 홈페이지"
 msgid "translator-credits"
 msgstr "류창우 <cwryu@debian.org>"
 
-#: ../hamster/preferences.py:56 ../hamster/db.py:333 ../hamster/reports.py:133
+#: ../hamster/preferences.py:56 ../hamster/db.py:343 ../hamster/reports.py:133
 msgid "Unsorted"
 msgstr "분류 없음"
 
-#: ../hamster/preferences.py:103 ../hamster/applet.py:213
+#: ../hamster/preferences.py:103 ../hamster/applet.py:221
 #: ../hamster/stats.py:47
 msgid "Name"
 msgstr "이름"
@@ -283,91 +281,93 @@ msgstr "이름"
 msgid "Category"
 msgstr "분류"
 
-#: ../hamster/preferences.py:494
+#: ../hamster/preferences.py:510
 msgid "New category"
 msgstr "새 분류"
 
-#: ../hamster/preferences.py:507
+#: ../hamster/preferences.py:523
 msgid "New activity"
 msgstr "새 활동"
 
 #. notify interval slider value label
-#: ../hamster/preferences.py:552
+#: ../hamster/preferences.py:568
 #, python-format
 msgid "%(interval_minutes)d minutes"
 msgstr "%(interval_minutes)d분"
 
 #. notify interval slider value label
-#: ../hamster/preferences.py:555
+#: ../hamster/preferences.py:571
 msgid "Never"
 msgstr "하지 않음"
 
-#: ../hamster/add_custom_fact.py:80
+#: ../hamster/add_custom_fact.py:82
 msgid "Update activity"
 msgstr "활동 업데이트"
 
-#: ../hamster/applet.py:66
-msgid "Switch Task"
-msgstr "작업 전환"
+#. translators: this is edit activity action in the notifier bubble
+#: ../hamster/applet.py:73
+msgid "Edit"
+msgstr "편집"
 
-#: ../hamster/applet.py:67
-msgid "Stop Tracking"
-msgstr "추적 중지"
+#. translators: this is switch activity action in the notifier bubble
+#: ../hamster/applet.py:75
+msgid "Switch"
+msgstr "전환"
 
-#: ../hamster/applet.py:417 ../hamster/applet.py:517
+#: ../hamster/applet.py:423 ../hamster/applet.py:524
 msgid "No activity"
 msgstr "활동 없음"
 
 #. activity reminder
-#: ../hamster/applet.py:431
+#: ../hamster/applet.py:437
 #, python-format
 msgid "Working on <b>%s</b>"
 msgstr "<b>%s</b> 작업 중"
 
-#: ../hamster/applet.py:458
+#: ../hamster/applet.py:465
 #, python-format
 msgid "%(category)s: %(duration)s, "
 msgstr "%(category)s: %(duration)s, "
 
 #. defaults
-#: ../hamster/db.py:503
+#: ../hamster/db.py:513
 msgid "Work"
 msgstr "업무"
 
-#: ../hamster/db.py:504
+#: ../hamster/db.py:514
 msgid "Reading news"
 msgstr "뉴스 읽기"
 
-#: ../hamster/db.py:505
+#: ../hamster/db.py:515
 msgid "Checking stocks"
 msgstr "주식 시세 확인"
 
-#: ../hamster/db.py:506
+#: ../hamster/db.py:516
 msgid "Super secret project X"
 msgstr "초 극비 프로젝트 엑스"
 
-#: ../hamster/db.py:507
+#: ../hamster/db.py:517
 msgid "World domination"
 msgstr "세계 정복"
 
-#: ../hamster/db.py:509
+#: ../hamster/db.py:519
 msgid "Day to day"
 msgstr "일일 작업"
 
-#: ../hamster/db.py:510
+#: ../hamster/db.py:520
 msgid "Lunch"
 msgstr "점심"
 
-#: ../hamster/db.py:511
+#: ../hamster/db.py:521
 msgid "Watering flowers"
 msgstr "꽃에 물 주기"
 
-#: ../hamster/db.py:512
+#: ../hamster/db.py:522
 msgid "Doing handstands"
 msgstr "물구나무서기"
 
 # FIXME: incorrectly extracted msgid
-#: ../hamster/db.py:695 ../hamster/db.py:699
+#: ../hamster/db.py:705 ../hamster/db.py:709
 msgid "name"
 msgstr "name"
 
@@ -475,6 +475,12 @@ msgstr "주"
 #: ../hamster/stats.py:317
 msgid "Month"
 msgstr "달"
+
+#~ msgid "Today"
+#~ msgstr "오늘"
+
+#~ msgid "Stop Tracking"
+#~ msgstr "추적 중지"
 
 #~ msgid "Time tracking for masses"
 #~ msgstr "널리 사용하는 시간 추적"
