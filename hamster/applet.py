@@ -109,6 +109,7 @@ class PanelButton(gtk.ToggleButton):
             else:
                 label = "%s %s" % (self.activity, self.duration)
         
+        label = escape_pango(label)
         label = '<span gravity=\"south\">' + label + '</span>'
         self.label.set_markup(label)
 
