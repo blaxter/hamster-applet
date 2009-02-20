@@ -217,14 +217,15 @@ class CustomFactController:
         
     
     def on_ok_clicked(self, button):
-        activity = self.get_widget("activity-list").get_child().get_text()
+        activity = self.get_widget("activity-list").get_child().get_text().decode("utf-8")
         
         if not activity:
             return False
 
         # juggle with description - break into parts and then put together
         buf = self.get_widget('description').get_buffer()
-        description = buf.get_text(buf.get_start_iter(), buf.get_end_iter(), 0)
+        description = buf.get_text(buf.get_start_iter(), buf.get_end_iter(), 0)\
+                         .decode("utf-8")
         description = description.strip()
         
         # user might also type description in the activity name - strip it here
