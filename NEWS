@@ -1,4 +1,27 @@
 ===============
+Version 2.25.92
+===============
+ Applet - changes
+    * Fixed problems with utf-8 and Python 2.6 sqlite
+    * Escaping user input so they don't break UI where pango is used
+    * Stop tracking on shutdown was ignoring user preference
+   
+  Updated translations
+    * cs (Adrian Gunis)
+    * en_GB (Philip Withnall)
+    * fi (Timo Jyrinki)
+    * fr (Claude Paroz)
+    * he (Yair Hershkovitz)
+    * it (Milo Casagrande)
+    * ko (Changwoo Ryu)
+    * or (Arun Mohapatra)
+    * pt (Duarte Loreto)
+    * pt_BR (Vladimir Melo)
+    * sl (Matej Urbančič)
+    * tr (Baris Cicek)
+
+
+===============
 Version 2.25.91
 ===============
  Applet - changes
