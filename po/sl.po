@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libgwether\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=hamster-applet&component=general\n"
-"POT-Creation-Date: 2009-01-12 14:25+0000\n"
-"PO-Revision-Date: 2009-01-15 17:00+0100\n"
+"POT-Creation-Date: 2009-02-23 18:39+0000\n"
+"PO-Revision-Date: 2009-02-25 12:10+0100\n"
 "Last-Translator: Matej Urbančič <mateju@svn.gnome.org>\n"
 "Language-Team: Slovenian\n"
 "MIME-Version: 1.0\n"
@@ -26,7 +26,7 @@ msgstr "Projekt Hamster - sledenje času"
 #. Title of reminder baloon
 #: ../data/Hamster_Applet.server.in.in.h:2
 #: ../hamster/about.py:40
-#: ../hamster/applet.py:59
+#: ../hamster/applet.py:65
 msgid "Time Tracker"
 msgstr "Časomer"
 
@@ -172,7 +172,7 @@ msgid "Hamster"
 msgstr "Hamster"
 
 #: ../data/menu.glade.h:4
-#: ../hamster/applet.py:451
+#: ../hamster/applet.py:459
 msgid "No records today"
 msgstr "Za današnji dan ni zapisov"
 
@@ -256,10 +256,6 @@ msgstr "Prikaži mesec"
 msgid "Show week"
 msgstr "Prikaži teden"
 
-#: ../data/stats.glade.h:18
-msgid "Today"
-msgstr "Danes"
-
 #: ../hamster/about.py:43
 msgid "Copyright © 2007-2008 Toms Baugis and others"
 msgstr "Avtorska zaščita © 2007-2008 Toms Baugis in drugi"
@@ -273,13 +269,13 @@ msgid "translator-credits"
 msgstr "Matej Urbančič <mateju@svn.gnome.org>"
 
 #: ../hamster/preferences.py:56
-#: ../hamster/db.py:333
+#: ../hamster/db.py:343
 #: ../hamster/reports.py:133
 msgid "Unsorted"
 msgstr "Nerazvrščeno"
 
 #: ../hamster/preferences.py:103
-#: ../hamster/applet.py:213
+#: ../hamster/applet.py:222
 #: ../hamster/stats.py:47
 msgid "Name"
 msgstr "Ime"
@@ -290,92 +286,94 @@ msgstr "Ime"
 msgid "Category"
 msgstr "Kategorija"
 
-#: ../hamster/preferences.py:494
+#: ../hamster/preferences.py:511
 msgid "New category"
 msgstr "Nova kategorija"
 
-#: ../hamster/preferences.py:507
+#: ../hamster/preferences.py:524
 msgid "New activity"
 msgstr "Nova dejavnost"
 
 #. notify interval slider value label
-#: ../hamster/preferences.py:552
+#: ../hamster/preferences.py:569
 #, python-format
 msgid "%(interval_minutes)d minutes"
 msgstr "%(interval_minutes)d minut"
 
 #. notify interval slider value label
-#: ../hamster/preferences.py:555
+#: ../hamster/preferences.py:572
 msgid "Never"
 msgstr "Nikoli"
 
-#: ../hamster/add_custom_fact.py:80
+#: ../hamster/add_custom_fact.py:82
 msgid "Update activity"
 msgstr "Posodobi dejavnost"
 
-#: ../hamster/applet.py:66
-msgid "Switch Task"
-msgstr "Preklopi nalogo"
+#. translators: this is edit activity action in the notifier bubble
+#: ../hamster/applet.py:73
+msgid "Edit"
+msgstr "Uredi"
 
-#: ../hamster/applet.py:67
-msgid "Stop Tracking"
-msgstr "Ustavi sledenje"
+#. translators: this is switch activity action in the notifier bubble
+#: ../hamster/applet.py:75
+msgid "Switch"
+msgstr "Preklopi"
 
-#: ../hamster/applet.py:417
-#: ../hamster/applet.py:517
+#: ../hamster/applet.py:424
+#: ../hamster/applet.py:525
 msgid "No activity"
 msgstr "Ni dejavnosti"
 
 #. activity reminder
-#: ../hamster/applet.py:431
+#: ../hamster/applet.py:438
 #, python-format
 msgid "Working on <b>%s</b>"
 msgstr "_Opozorilo na <b>%s</b>"
 
-#: ../hamster/applet.py:458
+#: ../hamster/applet.py:466
 #, python-format
 msgid "%(category)s: %(duration)s, "
 msgstr "%(category)s: %(duration)s, "
 
 #. defaults
-#: ../hamster/db.py:503
+#: ../hamster/db.py:513
 msgid "Work"
 msgstr "Služba"
 
-#: ../hamster/db.py:504
+#: ../hamster/db.py:514
 msgid "Reading news"
 msgstr "Branje novic"
 
-#: ../hamster/db.py:505
+#: ../hamster/db.py:515
 msgid "Checking stocks"
 msgstr "Preverjanje delnic"
 
-#: ../hamster/db.py:506
+#: ../hamster/db.py:516
 msgid "Super secret project X"
 msgstr "Tajni projekt X"
 
-#: ../hamster/db.py:507
+#: ../hamster/db.py:517
 msgid "World domination"
 msgstr "Zavlada svetu"
 
-#: ../hamster/db.py:509
+#: ../hamster/db.py:519
 msgid "Day to day"
 msgstr "Iz dneva v dan"
 
-#: ../hamster/db.py:510
+#: ../hamster/db.py:520
 msgid "Lunch"
 msgstr "Kosilo"
 
-#: ../hamster/db.py:511
+#: ../hamster/db.py:521
 msgid "Watering flowers"
 msgstr "Zalivanje rož"
 
-#: ../hamster/db.py:512
+#: ../hamster/db.py:522
 msgid "Doing handstands"
 msgstr "Stoja na glavi"
 
-#: ../hamster/db.py:695
-#: ../hamster/db.py:699
+#: ../hamster/db.py:705
+#: ../hamster/db.py:709
 msgid "name"
 msgstr "ime"
 
@@ -487,6 +485,10 @@ msgstr "Teden"
 msgid "Month"
 msgstr "Mesec"
 
+#~ msgid "Today"
+#~ msgstr "Danes"
+#~ msgid "Stop Tracking"
+#~ msgstr "Ustavi sledenje"
 #~ msgid "Time tracking for masses"
 #~ msgstr "Časomer za množice."
 #~ msgid "Time tracking for masses."
