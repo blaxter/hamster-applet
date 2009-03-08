@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hamster-applet 2.24\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-02-12 18:25+0100\n"
-"PO-Revision-Date: 2009-02-09 23:23+0100\n"
+"POT-Creation-Date: 2009-03-08 15:30+0100\n"
+"PO-Revision-Date: 2009-03-08 15:31+0100\n"
 "Last-Translator: Gil Forcada <gilforcada@guifi.net>\n"
 "Language-Team: Catalan <tradgnome@softcatala.org>\n"
 "MIME-Version: 1.0\n"
@@ -168,13 +168,13 @@ msgstr "Afegeix una activitat _prèvia"
 msgid "Hamster"
 msgstr "Hamster"
 
-#: ../data/menu.glade.h:4 ../hamster/applet.py:458
+#: ../data/menu.glade.h:4 ../hamster/applet.py:459
 msgid "No records today"
 msgstr "No hi ha registres d'avui"
 
 #: ../data/menu.glade.h:5
 msgid "Show _Overview"
-msgstr "Mostra una _resum general"
+msgstr "Mostra un _resum general"
 
 #: ../data/menu.glade.h:6
 msgid "_Activity:"
@@ -268,7 +268,7 @@ msgstr "Gil Forcada <gilforcada@guifi.net>"
 msgid "Unsorted"
 msgstr "Sense ordre"
 
-#: ../hamster/preferences.py:103 ../hamster/applet.py:221
+#: ../hamster/preferences.py:103 ../hamster/applet.py:222
 #: ../hamster/stats.py:47
 msgid "Name"
 msgstr "Nom"
@@ -278,26 +278,26 @@ msgstr "Nom"
 msgid "Category"
 msgstr "Categoria"
 
-#: ../hamster/preferences.py:510
+#: ../hamster/preferences.py:511
 msgid "New category"
 msgstr "Categoria nova"
 
-#: ../hamster/preferences.py:523
+#: ../hamster/preferences.py:524
 msgid "New activity"
 msgstr "Activitat nova"
 
 #. notify interval slider value label
-#: ../hamster/preferences.py:568
+#: ../hamster/preferences.py:569
 #, python-format
 msgid "%(interval_minutes)d minutes"
 msgstr "%(interval_minutes)d minuts"
 
 #. notify interval slider value label
-#: ../hamster/preferences.py:571
+#: ../hamster/preferences.py:572
 msgid "Never"
 msgstr "Mai"
 
-#: ../hamster/add_custom_fact.py:80
+#: ../hamster/add_custom_fact.py:82
 msgid "Update activity"
 msgstr "Actualitza l'activitat"
 
@@ -311,17 +311,17 @@ msgstr "Edita"
 msgid "Switch"
 msgstr "Canvia"
 
-#: ../hamster/applet.py:423 ../hamster/applet.py:524
+#: ../hamster/applet.py:424 ../hamster/applet.py:525
 msgid "No activity"
 msgstr "Cap activitat"
 
 #. activity reminder
-#: ../hamster/applet.py:437
+#: ../hamster/applet.py:438
 #, python-format
 msgid "Working on <b>%s</b>"
 msgstr "S'està fent <b>%s</b>"
 
-#: ../hamster/applet.py:465
+#: ../hamster/applet.py:466
 #, python-format
 msgid "%(category)s: %(duration)s, "
 msgstr "%(category)s: %(duration)s, "
