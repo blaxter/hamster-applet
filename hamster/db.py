@@ -340,7 +340,7 @@ class Storage(hamster.storage.Storage):
         """
         end_date = end_date or date        
 
-        return self.fetchall(query, (unicode(_("Unsorted")), date, end_date))
+        return self.fetchall(query, (_("Unsorted"), date, end_date))
 
     def __remove_fact(self, fact_id):
         query = """
@@ -702,13 +702,13 @@ class Storage(hamster.storage.Storage):
         category_count = self.fetchone("select count(*) from categories")[0]
         
         if category_count == 0:
-            work_cat_id = self.__add_category(unicode(work_category["name"]))
+            work_cat_id = self.__add_category(_(work_category["name"]))
             for entry in work_category["entries"]:
-                self.__add_activity(unicode(entry), work_cat_id)
+                self.__add_activity(_(entry), work_cat_id)
         
-            nonwork_cat_id = self.__add_category(unicode(nonwork_category["name"]))
+            nonwork_cat_id = self.__add_category(_(nonwork_category["name"]))
             for entry in nonwork_category["entries"]:
-                self.__add_activity(unicode(entry), nonwork_cat_id)
+                self.__add_activity(_(entry), nonwork_cat_id)
         
         
         
