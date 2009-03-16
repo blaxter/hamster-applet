@@ -1,0 +1,500 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Amitakhya Phukan <aphukan@fedoraproject.org>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: as\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug."
+"cgi?product=hamster-applet&component=general\n"
+"POT-Creation-Date: 2009-03-01 00:11+0000\n"
+"PO-Revision-Date: 2009-03-16 11:11+0530\n"
+"Last-Translator: Amitakhya Phukan <aphukan@fedoraproject.org>\n"
+"Language-Team: Assamese <fedora-trans-as@redhat.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: ../data/Hamster_Applet.server.in.in.h:1 ../hamster/about.py:42
+msgid "Project Hamster - track your time"
+msgstr "Project Hamster - track your time"
+
+#. Title of reminder baloon
+#: ../data/Hamster_Applet.server.in.in.h:2 ../hamster/about.py:40
+#: ../hamster/applet.py:65
+msgid "Time Tracker"
+msgstr "সময় অনুসৰণ"
+
+#: ../data/Hamster_Applet.xml.h:1
+#
+msgid "_About"
+msgstr "বিষয়ে (_A)"
+
+#: ../data/Hamster_Applet.xml.h:2
+msgid "_Overview"
+msgstr "সংক্ষিপ্ত তথ্য প্ৰদৰ্শন কৰা হবে (_O)"
+
+#: ../data/Hamster_Applet.xml.h:3
+#
+msgid "_Preferences"
+msgstr "পছন্দ (_P)"
+
+#: ../data/preferences.glade.h:1
+msgid "<b>Activities</b>"
+msgstr "<b>কৰ্ম</b>"
+
+#: ../data/preferences.glade.h:2
+msgid "<b>Global Hotkey</b>"
+msgstr "<b>সাৰ্বজনীন হট-কি</b>"
+
+#: ../data/preferences.glade.h:3
+msgid "<b>Tracking</b>"
+msgstr "<b>অনুসৰণ</b>"
+
+#: ../data/preferences.glade.h:4
+#
+msgid "Move _Down"
+msgstr "নীচে স্থানান্তৰ কৰুন (_D)"
+
+#: ../data/preferences.glade.h:5
+#
+msgid "Move _Up"
+msgstr "উপৰে স্থানান্তৰ (_U)"
+
+#: ../data/preferences.glade.h:6
+msgid "N_ew Category"
+msgstr "নতুন বিভাগ (_e)"
+
+#: ../data/preferences.glade.h:7
+msgid "Remind of current activity every:"
+msgstr "Remind of current activity every:"
+
+#: ../data/preferences.glade.h:8 ../data/hamster-applet.schemas.in.h:8
+msgid "Stop tracking on shutdown"
+msgstr "কম্পিউটাৰ বন্ধ হলে"
+
+#: ../data/preferences.glade.h:9
+msgid "Stop tracking when computer becomes idle"
+msgstr "Stop tracking when computer becomes idle"
+
+#: ../data/preferences.glade.h:10
+msgid "Time Tracker Preferences"
+msgstr "Time Tracker Preferences"
+
+#: ../data/preferences.glade.h:11
+msgid "_Activities"
+msgstr "কৰ্ম (_A)"
+
+#: ../data/preferences.glade.h:12
+#
+msgid "_Categories"
+msgstr "শ্ৰেণীবিভাগ(_C)"
+
+#: ../data/preferences.glade.h:13
+msgid "_New Activity"
+msgstr "নতুন কৰ্ম (_N)"
+
+#: ../data/add_custom_fact.glade.h:1 ../data/stats.glade.h:4
+msgid "<b>Activity</b>"
+msgstr "<b>কৰ্ম</b>"
+
+#: ../data/add_custom_fact.glade.h:2
+msgid "<b>Date and Time</b>"
+msgstr "<b>তাৰিখ ও সময়</b>"
+
+#: ../data/add_custom_fact.glade.h:3
+msgid "Add Earlier Activity"
+msgstr "পূৰ্ববৰ্তী কৰ্ম যোগ কৰুন"
+
+#: ../data/add_custom_fact.glade.h:4
+#
+msgid "Description:"
+msgstr "বিবৰণ:"
+
+#: ../data/add_custom_fact.glade.h:5
+#
+msgid "Name:"
+msgstr "নাম"
+
+#: ../data/add_custom_fact.glade.h:6
+msgid "hours"
+msgstr "ঘন্টা"
+
+#: ../data/add_custom_fact.glade.h:7
+msgid ""
+"in progress...\n"
+"until\n"
+"for"
+msgstr ""
+"in progress...\n"
+"until\n"
+"for"
+
+#: ../data/add_custom_fact.glade.h:10
+msgid "minutes"
+msgstr "মিনিট"
+
+#: ../data/hamster-applet.schemas.in.h:1
+msgid "Keyboard shortcut for showing the Time Tracker window."
+msgstr "Keyboard shortcut for showing the Time Tracker window."
+
+#: ../data/hamster-applet.schemas.in.h:2
+msgid ""
+"Remind of current task every specified amount of minutes. Set to 0 or bigger "
+"than 120 to disable reminder."
+msgstr ""
+"Remind of current task every specified amount of minutes. Set to 0 or bigger "
+"than 120 to disable reminder."
+
+#: ../data/hamster-applet.schemas.in.h:3
+msgid "Remind of current task every x minutes"
+msgstr "Remind of current task every x minutes"
+
+#: ../data/hamster-applet.schemas.in.h:4
+msgid "Show window"
+msgstr "উইন্ডো প্ৰদৰ্শন কৰা হবে"
+
+#: ../data/hamster-applet.schemas.in.h:5
+msgid "Stop tracking current activity on shutdown"
+msgstr "Stop tracking current activity on shutdown"
+
+#: ../data/hamster-applet.schemas.in.h:6
+msgid "Stop tracking current activity, when computer becomes idle"
+msgstr "Stop tracking current activity, when computer becomes idle"
+
+#: ../data/hamster-applet.schemas.in.h:7
+msgid "Stop tracking on idle"
+msgstr "Stop tracking on idle"
+
+#: ../data/menu.glade.h:1
+msgid "Ad_d Earlier Activity"
+msgstr "পূৰ্ববৰ্তী কৰ্ম যোগ কৰুন (_d)"
+
+#. This title appears only when debugging from console. Leave it as is.
+#: ../data/menu.glade.h:3
+msgid "Hamster"
+msgstr "Hamster (হ্যামস্টাৰ)"
+
+#: ../data/menu.glade.h:4 ../hamster/applet.py:459
+msgid "No records today"
+msgstr "আজকেৰ কোনো তথ্য উপস্থিত নেই"
+
+#: ../data/menu.glade.h:5
+msgid "Show _Overview"
+msgstr "সংক্ষিপ্ত তথ্য প্ৰদৰ্শন কৰা হবে (_O)"
+
+#: ../data/menu.glade.h:6
+msgid "_Activity:"
+msgstr "কৰ্ম: (_A)"
+
+#: ../data/menu.glade.h:7
+msgid "_Stop Tracking"
+msgstr "অনুসৰণ বন্ধ কৰা হবে (_S)"
+
+#: ../data/menu.glade.h:8
+#
+msgid "_Today"
+msgstr "আজ (_T)"
+
+#: ../data/stats.glade.h:1
+msgid " _Day"
+msgstr " দিন (_D)"
+
+#: ../data/stats.glade.h:2
+msgid " _Month"
+msgstr " মাস (_M)"
+
+#: ../data/stats.glade.h:3
+msgid " _Week"
+msgstr " সপ্তাহ (_W)"
+
+#: ../data/stats.glade.h:5
+msgid "<b>Category</b>"
+msgstr "<b>বিভাগ</b>"
+
+#: ../data/stats.glade.h:6
+msgid "<b>Overview</b>"
+msgstr "<b>সংক্ষিপ্ত তথ্য</b>"
+
+#: ../data/stats.glade.h:7
+msgid "<b>Week</b>"
+msgstr "<b>সপ্তাহ</b>"
+
+#: ../data/stats.glade.h:8
+msgid "Add activity"
+msgstr "কৰ্ম যোগ কৰুন"
+
+#: ../data/stats.glade.h:9
+msgid "Delete activity"
+msgstr "কৰ্ম মুছে ফেলুন"
+
+#: ../data/stats.glade.h:10
+msgid "Earlier activities"
+msgstr "পূৰ্ববৰ্তী কৰ্ম"
+
+#: ../data/stats.glade.h:11
+msgid "Edit activity"
+msgstr "কৰ্ম সম্পাদনা"
+
+#: ../data/stats.glade.h:12
+msgid "Generate Report"
+msgstr "ৰিপোৰ্ট তৈৰি কৰুন"
+
+#: ../data/stats.glade.h:13
+msgid "Newer activities"
+msgstr "নতুন কৰ্ম"
+
+#: ../data/stats.glade.h:14
+msgid "Overview - Hamster"
+msgstr "সংক্ষিপ্ত তথ্য - Hamster"
+
+#: ../data/stats.glade.h:15
+msgid "Show day"
+msgstr "দিন প্ৰদৰ্শন কৰা হবে"
+
+#: ../data/stats.glade.h:16
+msgid "Show month"
+msgstr "মাস প্ৰদৰ্শন কৰা হবে"
+
+#: ../data/stats.glade.h:17
+msgid "Show week"
+msgstr "সপ্তাহ প্ৰদৰ্শন কৰা হবে"
+
+#: ../hamster/about.py:43
+msgid "Copyright © 2007-2008 Toms Baugis and others"
+msgstr "স্বত্বাধিকাৰ © ২০০৭-২০০৮ টমস বগিস ও অন্যান্যদেৰ"
+
+#: ../hamster/about.py:45
+msgid "Hamster Website"
+msgstr "Hamster ওয়েব-সাইট"
+
+#: ../hamster/about.py:54
+#
+msgid "translator-credits"
+msgstr "অমিতাক্ষ ফুকন (aphukan@fedoraproject.org)"
+
+#: ../hamster/preferences.py:56 ../hamster/db.py:343 ../hamster/reports.py:133
+#
+msgid "Unsorted"
+msgstr "অনুক্ৰম বিহীন"
+
+#: ../hamster/preferences.py:103 ../hamster/applet.py:222
+#
+#: ../hamster/stats.py:47
+msgid "Name"
+msgstr "নাম"
+
+#: ../hamster/preferences.py:123 ../hamster/reports.py:106
+#
+#: ../hamster/reports.py:176
+msgid "Category"
+msgstr "শ্ৰেণী"
+
+#: ../hamster/preferences.py:511
+msgid "New category"
+msgstr "নতুন বিভাগ"
+
+#: ../hamster/preferences.py:524
+msgid "New activity"
+msgstr "নতুন কৰ্ম"
+
+#. notify interval slider value label
+#: ../hamster/preferences.py:569
+#, python-format
+msgid "%(interval_minutes)d minutes"
+msgstr "%(interval_minutes)d minutes"
+
+#. notify interval slider value label
+#: ../hamster/preferences.py:572
+#
+msgid "Never"
+msgstr "কখনো নয়"
+
+#: ../hamster/add_custom_fact.py:82
+msgid "Update activity"
+msgstr "কৰ্ম আপডেট কৰুন"
+
+#. translators: this is edit activity action in the notifier bubble
+#: ../hamster/applet.py:73
+#
+msgid "Edit"
+msgstr "সম্পাদনা"
+
+#. translators: this is switch activity action in the notifier bubble
+#: ../hamster/applet.py:75
+msgid "Switch"
+msgstr "Switch"
+
+#: ../hamster/applet.py:424 ../hamster/applet.py:525
+msgid "No activity"
+msgstr "কোনো কৰ্ম হয়নি"
+
+#. activity reminder
+#: ../hamster/applet.py:438
+#, python-format
+msgid "Working on <b>%s</b>"
+msgstr "Working on <b>%s</b>"
+
+#: ../hamster/applet.py:466
+#, python-format
+msgid "%(category)s: %(duration)s, "
+msgstr "%(category)s: %(duration)s, "
+
+#. defaults
+#: ../hamster/db.py:513
+#
+msgid "Work"
+msgstr "কৰ্ম"
+
+#: ../hamster/db.py:514
+msgid "Reading news"
+msgstr "সংবাদ পাঠ"
+
+#: ../hamster/db.py:515
+msgid "Checking stocks"
+msgstr "স্টকেৰ খবৰাখবৰ"
+
+#: ../hamster/db.py:516
+msgid "Super secret project X"
+msgstr "অত্যন্ত গোপনীয় প্ৰজেক্ট X"
+
+#: ../hamster/db.py:517
+msgid "World domination"
+msgstr "বিশ্বেৰ উপৰ ৰাজত্ব"
+
+#: ../hamster/db.py:519
+msgid "Day to day"
+msgstr "নিত্যনৈমিত্তিক"
+
+#: ../hamster/db.py:520
+msgid "Lunch"
+msgstr "মধ্যভোজ"
+
+#: ../hamster/db.py:521
+msgid "Watering flowers"
+msgstr "ফুলেৰ গাছে জল দেওয়া"
+
+#: ../hamster/db.py:522
+msgid "Doing handstands"
+msgstr "যোগাসন"
+
+#: ../hamster/db.py:705 ../hamster/db.py:709
+#
+msgid "name"
+msgstr "নাম"
+
+#. overview label if start and end years don't match
+#. letter after prefixes (start_, end_) is the one of
+#. standard python date formatting ones- you can use all of them
+#: ../hamster/reports.py:32 ../hamster/stats.py:296
+#, python-format
+msgid ""
+"Overview for %(start_B)s %(start_d)s, %(start_Y)s – %(end_B)s %(end_d)s, %"
+"(end_Y)s"
+msgstr ""
+"Overview for %(start_B)s %(start_d)s, %(start_Y)s – %(end_B)s %(end_d)s, %"
+"(end_Y)s"
+
+#. overview label if start and end month do not match
+#. letter after prefixes (start_, end_) is the one of
+#. standard python date formatting ones- you can use all of them
+#: ../hamster/reports.py:34 ../hamster/stats.py:301
+#, python-format
+msgid "Overview for %(start_B)s %(start_d)s – %(end_B)s %(end_d)s, %(end_Y)s"
+msgstr "Overview for %(start_B)s %(start_d)s – %(end_B)s %(end_d)s, %(end_Y)s"
+
+#. overview label for interval in same month
+#. letter after prefixes (start_, end_) is the one of
+#. standard python date formatting ones- you can use all of them
+#: ../hamster/reports.py:36 ../hamster/stats.py:306
+#, python-format
+msgid "Overview for %(start_B)s %(start_d)s – %(end_d)s, %(end_Y)s"
+msgstr "Overview for %(start_B)s %(start_d)s – %(end_d)s, %(end_Y)s"
+
+#. overview label for single day
+#. letter after prefixes (start_, end_) is the one of
+#. standard python date formatting ones- you can use all of them
+#: ../hamster/reports.py:39 ../hamster/stats.py:312
+#, python-format
+msgid "Overview for %(start_B)s %(start_d)s, %(start_Y)s"
+msgstr "Overview for %(start_B)s %(start_d)s, %(start_Y)s"
+
+#: ../hamster/reports.py:104
+#
+msgid "Date"
+msgstr "তাৰিখ"
+
+#: ../hamster/reports.py:105 ../hamster/reports.py:177
+msgid "Activity"
+msgstr "ক্ৰিয়া-কলাপ"
+
+#: ../hamster/reports.py:107
+#
+msgid "Start"
+msgstr "আৰম্ভ কৰা হবে"
+
+#: ../hamster/reports.py:108
+#
+msgid "End"
+msgstr "সমাপ্তি"
+
+#: ../hamster/reports.py:109 ../hamster/reports.py:178 ../hamster/stats.py:55
+#
+msgid "Duration"
+msgstr "অবকাল"
+
+#: ../hamster/reports.py:110
+#
+msgid "Description"
+msgstr "বিবৰণ"
+
+#. fact date column in HTML report
+#: ../hamster/reports.py:148
+#, python-format
+msgid "%(report_b)s %(report_d)s, %(report_Y)s"
+msgstr "%(report_b)s %(report_d)s, %(report_Y)s"
+
+#. summary table
+#: ../hamster/reports.py:173
+msgid "Totals"
+msgstr "Totals"
+
+#: ../hamster/reports.py:190
+msgid "Total Time"
+msgstr "Total Time"
+
+#. date format in overview window fact listing
+#. prefix is "o_",letter after prefix is regular python format. you can use all of them
+#: ../hamster/stats.py:190
+#, python-format
+msgid "%(o_A)s, %(o_b)s %(o_d)s"
+msgstr "%(o_A)s, %(o_b)s %(o_d)s"
+
+#. date format in month chart in overview window (click on "month" to see it)
+#. prefix is "m_", letter after prefix is regular python format. you can use all of them
+#: ../hamster/stats.py:244
+#, python-format
+msgid "%(m_b)s %(m_d)s"
+msgstr "%(m_b)s %(m_d)s"
+
+#: ../hamster/stats.py:268
+#
+msgid "Other"
+msgstr "অন্যান্য"
+
+#: ../hamster/stats.py:313
+msgid "Day"
+msgstr "দিন"
+
+#: ../hamster/stats.py:315
+#
+msgid "Week"
+msgstr "সপ্তাহ"
+
+#: ../hamster/stats.py:317
+#
+msgid "Month"
+msgstr "মাস"
+
