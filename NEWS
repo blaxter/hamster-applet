@@ -1,4 +1,25 @@
 ===============
+Version 2.26.0
+===============
+ Applet - changes
+   * Final fixes to utf-8 and Python 2.6 sqlite
+
+ Updated translations
+   * as (Amitakhya Phukan)
+   * ca (David Planella)
+   * de (Hendrik Richter)
+   * el (Jennie Petoumenou)
+   * gu (Ankit Patel)
+   * ja (Takeshi AIHANA)
+   * lt (Gintautas Miliauskas)
+   * mr (Sandeep Shedmake)
+   * pa (Amanpreet Singh Alam)
+   * ro (Adi Roiban)
+   * ru (Yuriy Penkin)
+   * ta (I. Felix)
+   * te (Krishna Babu K)
+
+===============
 Version 2.25.92
 ===============
  Applet - changes
