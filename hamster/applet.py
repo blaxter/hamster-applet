@@ -407,7 +407,12 @@ class HamsterApplet(object):
             # if we have date change - let's finish previous task and start a new one
             if prev_date and prev_date != self.today: 
                 storage.touch_fact(self.last_activity)
-                storage.add_fact(self.last_activity['name'])
+                activity_name = self.last_activity['name']
+                if self.last_activity['category']:
+                    activity_name += "@%s" % self.last_activity['category']
+                if self.last_activity['description']:
+                    activity_name += ",%s" % self.last_activity['description']
+                storage.add_fact(activity_name)
             elif self.button.get_active(): # otherwise if we the day view is visible - update day's durations
                 self.load_day()
                     
