@@ -202,6 +202,8 @@ class HamsterApplet(object):
         
         self.applet = applet
         self.applet.set_applet_flags (gnomeapplet.EXPAND_MINOR);
+        
+        self.notify_interval = None
 
         self.preferences_editor = None
         self.applet.about = None
