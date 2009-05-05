@@ -606,9 +606,7 @@ class HamsterApplet(object):
         
         if activity_name == "":
             return
-        
-        storage.add_fact(activity_name)
-        dispatcher.dispatch('panel_visible', False)
+        self.add_fact(activity_name)
 
     """listview events"""
     def on_todays_keys(self, tree, event_key):
@@ -622,9 +620,16 @@ class HamsterApplet(object):
         (model, iter) = selection.get_selected()
         activity_name = model[iter][1].decode('utf8', 'replace')
         if activity_name:
-            storage.add_fact(activity_name)
-            dispatcher.dispatch('panel_visible', False)        
+            self.add_fact(activity_name)
+    
+    def add_fact(self, activity_name):
+        if self.last_activity and self.last_activity['start_time'] != datetime.date.today():
+            # very seldom thing but we have been caught right after midnight
+            self.refresh_hamster()
+        storage.add_fact(activity_name)
+        dispatcher.dispatch('panel_visible', False)        
         
+
         
     def on_windows_keys(self, tree, event_key):
         if (event_key.keyval == gtk.keysyms.Escape
