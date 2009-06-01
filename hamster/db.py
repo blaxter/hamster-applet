@@ -657,11 +657,10 @@ class Storage(storage.Storage):
 
     """ Here be dragons (lame connection/cursor wrappers) """
     def get_connection(self):
-        from configuration import runtime
-        if self.con is None:
-            db_file = runtime.database_file
-            self.con = sqlite.connect(db_file, detect_types=sqlite.PARSE_DECLTYPES|sqlite.PARSE_COLNAMES)
-            self.con.row_factory = sqlite.Row
+        from configuration import runtime        
+        db_file = runtime.database_file
+        self.con = sqlite.connect(db_file, detect_types=sqlite.PARSE_DECLTYPES|sqlite.PARSE_COLNAMES)
+        self.con.row_factory = sqlite.Row       
 
         return self.con
 
